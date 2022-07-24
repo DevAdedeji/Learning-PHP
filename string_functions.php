@@ -35,3 +35,9 @@ $string = "Hello world";
 // if (str_ends_with($string, 'world')) {
 //     echo 'No';
 // }
+
+$string2 = '<script>alert("Hello")</script>';
+// echo htmlspecialchars($string2);
+
+// printf('%s likes to %s', 'Brad', 'Code');
+// printf('1+1=%f', 1 + 1);
