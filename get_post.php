@@ -1,12 +1,4 @@
-<?php
-if (isset($_POST['submit'])) {
-    echo $_POST['name'];
-    echo $_POST['age'];
-}
-?>
-
-
-<form action="<?= $_SERVER['PHP_SELF'] ?>" method="POST">
+<form action="/profile.php" method="POST">
     <div>
         <label for="name">Name: </label>
         <input type="text" name="name">
